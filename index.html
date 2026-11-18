@@ -468,7 +468,9 @@ function viewHome(){
 
     <div class="sec-title">按部分刷题</div>
     <div class="card pad" style="padding:6px 16px">${chapterHtml}</div>
-    <div style="height:8px"></div>
+    <p style="margin:20px 4px 4px;font-size:11.5px;line-height:1.7;color:var(--muted);opacity:.9">
+      仅供个人学习备考，非官方资料，请勿用于商业用途或对外传播；如涉版权问题请联系删除。
+    </p>
   </div>`,{nav:'home'});
 }
 
@@ -901,6 +903,10 @@ function viewMore(){
       <p>题库来源：《国家电网有限公司高校毕业生招聘考试 · 公共与行业知识题库（2027 版）》，共 ${window.QB.length} 题。</p>
       <p style="margin-top:8px">解析为应试辅助，出处与时间以官方文件为准；遇到与教材不符，以教材和原文件为准。</p>
       <p style="margin-top:8px">快捷键：1-4 选项 · Enter 下一题 · ← → 上/下一题</p>
+      <p style="margin-top:12px;padding-top:12px;border-top:1px solid var(--line);font-size:12.5px">
+        <b style="color:var(--ink2)">使用声明：</b>本题库仅供个人学习备考使用，非国家电网官方资料，
+        请勿用于商业用途或对外传播；如涉版权问题，请联系删除。
+      </p>
     </div>
     <div style="height:8px"></div>
   </div>`,{nav:'more'});
